@@ -1,3 +1,3 @@
 MAX_CHARS = 10000
 TIMEOUT = 30
-MODEL_NAME = "gemini-2.5-pro"
+MODEL_NAME = "gemini-2.5-flash"

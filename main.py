@@ -36,8 +36,6 @@ def main():
         return
     
     for _ in range(20):
-        print(f'messages: {[m for m in messages]}')
-        print(f'iteration {_}')
         
         response = client.models.generate_content(
             model=MODEL_NAME,
